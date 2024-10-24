@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Test Website</title>
+    <title>My Test Website with External JavaScript</title>
 </head>
 <body>
     <h1>Welcome to My Test Website!</h1>
-    <p>This is a simple page hosted with GittttttttHub Pages.</p>
+    <p id="message">This is a simple page hosted with GitHub Pages.</p>
+
+    <!-- Add a button to trigger JavaScript -->
+    <button onclick="changeText()">Click me to change the text</button>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
 </body>
 </html>
+
